@@ -1,0 +1,70 @@
+/* Dark green: #787860 */
+/* Light green: #a8a890 */
+/* Tan green: #d8d8c0 */
+/* Greyish: #d8d8c0 */
+
+body {
+	font-family: 'Crimson Text', serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+	text-rendering: optimizeLegibility;
+
+}
+
+h4 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+	font-family: 'Crimson Text', serif;
+}
+
+.inner {
+	padding-top: 30px; 
+}
+
+#links{
+	min-height: 700px;
+}
+
+#publications ul{
+	list-style-type: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#publications ul li{
+	margin-bottom: 15px;
+}
+
+.header-img {
+	/* width: 100%; */
+    margin-top: 100px;
+	/*padding-top: 100px;*/
+}
+
+#aboutme {
+	/* background: #a8a890; */
+	padding: 0 0 0 0;
+}
+
+#aboutmetext {
+	/* background: #d8d8c0; */
+}
+
+#research {
+	/* background: #a8a890; */
+	min-height: 300px;
+}
+
+#publications {
+	/* background: #d8d8c0; */
+}
+
+.full-width {
+	width: 100%;
+	padding: 30px;
+	padding-top: 0px;
+}
