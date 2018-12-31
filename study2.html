@@ -1,111 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Caitlin Tenison</title>
-        <!-- Bootstrap -->
-        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Fjord+One' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
-        <link href="style.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="Shortcut Icon" href="favicon.ico">
-    </head>
-    <body data-spy="scroll" data-target="#navbar" data-offset="10">
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="navbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
+---
 
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar">
-                            </span>
-                            <span class="icon-bar">
-                            </span>
-                            <span class="icon-bar">
-                            </span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">Caitlin Tenison</a>
-                    </div>
-                    <div class="row">
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav">
-                                <li>
-                                <a href="index.html#aboutme">About Me</a>
-                                </li>
-                                <li>
-                                <a href="index.html#research">Research</a>
-                                </li>
-                                <li>
-                                <a href="index.html#publications">Publications</a>
-                                </li>
-                                <li>
-                                <a href="cv.pdf">CV</a>
-                                </li>
-                                <li>
-                                <a href="index.html#links">Links</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+layout: default
+
+---
+
+<div id="aboutme" class="full-width text-center">
+    <img class="header-img" src="/images/study2.jpg">
+</div>
+<div id="aboutmetext" class="full-width">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="page-header">
+                    <h2>Abstract</h2>
                 </div>
-            </div>
-        </div>
-        </nav>
-        <div id="aboutme" class="full-width text-center">
-            <img class="header-img" src="study2.jpg">
-        </div>
-        <div id="aboutmetext" class="full-width">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <div class="page-header">
-                            <h2>Abstract</h2>
-                        </div>
-                        <p>This fMRI study examines the changes in participants' information processing as they repeatedly solve the same mathematical problem. We show that the majority of practice-related speedup is produced by discrete changes in cognitive processing. Because the points at which these changes take place vary from problem to problem, and the underlying information processing steps vary in duration, the existence of such discrete changes can be hard to detect. Using two converging approaches, we establish the existence of three learning phases. When solving a problem in one of these learning phases, participants can go through three cognitive stages:  Encoding, Solving, and Responding.Each cognitive stage is associated with a unique brain signature. Using a bottom-up approach combining multi-voxel pattern analysis and hidden semi-Markov modeling, we identify the duration of that stage on any particular trial from participants brain activation patterns. For our top-down approach we developed an ACT-R model of these cognitive stages and simulated how they change over the course of learning. The Solving stage of the first learning phase is long and involves a sequence of arithmetic computations. Participants transition to the second learning phase when they can retrieve the answer, thereby drastically reducing the duration of the Solving stage. With continued practice, participants then transition to the third learning phase when they recognize the problem as a single unit and produce the answer as an automatic response. The duration of this third learning phase is dominated by the Responding stage.
-                        </p>
+                <p>This fMRI study examines the changes in participants' information processing as they repeatedly solve the same mathematical problem. We show that the majority of practice-related speedup is produced by discrete changes in cognitive processing. Because the points at which these changes take place vary from problem to problem, and the underlying information processing steps vary in duration, the existence of such discrete changes can be hard to detect. Using two converging approaches, we establish the existence of three learning phases. When solving a problem in one of these learning phases, participants can go through three cognitive stages: Encoding, Solving, and Responding.Each cognitive stage is associated with a unique brain signature. Using a bottom-up approach combining multi-voxel pattern analysis and hidden semi-Markov modeling, we identify the duration of that stage on any particular trial from participants brain activation patterns. For our top-down approach we developed an ACT-R model of these cognitive stages and simulated how they change over the course of learning. The Solving stage of the first learning phase is long and involves a sequence of arithmetic computations. Participants transition to the second learning phase when they can retrieve the answer, thereby drastically reducing the duration of the Solving stage. With continued practice, participants then transition to the third learning phase when they recognize the problem as a single unit and produce the answer as an automatic response. The duration of this third learning phase is dominated by the Responding stage.
+                </p>
 
-                        <div class="page-header">
-                            <h2>Documentation</h2>
-                        </div>
+                <div class="page-header">
+                    <h2>Documentation</h2>
+                </div>
 
-                         <p> Tenison, C., Fincham, J. & Anderson, J. (In Press). Phases of learning: How skill acquisition impacts cognitive processing.<a href="TenisonFinchamAnderson_2016.pdf"> (Author prepublication)</a></p>
-                                                
-                        <p>Tenison, C., & Anderson, J. (2015, May). Exploring skill acquisition with cognitive and brain-based models.  Preliminary results presented at <a href="http://www.islc2015.org">the eight annual Inter-Science of Learning Center Student and Post-Doc Conference</a>, San Diego, CA.</p>
+                <p> Tenison, C., Fincham, J. &amp; Anderson, J. (In Press). Phases of learning: How skill acquisition impacts cognitive processing.<a href="TenisonFinchamAnderson_2016.pdf"> (Author prepublication)</a></p>
 
-                        <div class="col-md-6">
-                            <div class="page-header">
-                                <h2>Methodology</h2>
-                            </div>
-                            <ul>
-                                <li>Functional MRI</li>                                
-                                <li>Hidden Markov modeling</li>
-                                <li>Multi-Voxel Pattern Analysis </li>
-                                <li>Cognitive modeling in <a href="http://act-r.psy.cmu.edu/about/">ACT-R</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="page-header">
-                                <h2>Colloborators</h2>
-                            </div>
-                            <ul>
-                                <li>Dr. John R. Anderson</li>
-                                <li>Dr. Jon Fincham</li>
-                            </ul>
-                        </div>
+                <p>Tenison, C., &amp; Anderson, J. (2015, May). Exploring skill acquisition with cognitive and brain-based models. Preliminary results presented at <a href="http://www.islc2015.org">the eight annual Inter-Science of Learning Center Student and Post-Doc Conference</a>, San Diego, CA.</p>
+
+                <div class="col-md-6">
+                    <div class="page-header">
+                        <h2>Methodology</h2>
                     </div>
+                    <ul>
+                        <li>Functional MRI</li>
+                        <li>Hidden Markov modeling</li>
+                        <li>Multi-Voxel Pattern Analysis </li>
+                        <li>Cognitive modeling in <a href="http://act-r.psy.cmu.edu/about/">ACT-R</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="page-header">
+                        <h2>Colloborators</h2>
+                    </div>
+                    <ul>
+                        <li>Dr. John R. Anderson</li>
+                        <li>Dr. Jon Fincham</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /container -->
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js">
-    </script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js">
-    </script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js">
-    </script>
-</body>
-</html>
+</div>
