@@ -45,8 +45,8 @@ h2 {
 	/*padding-top: 100px;*/
 }
 .icon-image {
-    width: 100px;       /* Width of the icon */
-    height: 100px;      /* Height of the icon, set the same as width to create a square */
+    width: 150px;       /* Width of the icon */
+    height: 150px;      /* Height of the icon, set the same as width to create a square */
     object-fit: cover; /* Ensures the image covers the full area without distorting */
     object-position: center; /* Adjust this value to focus on a specific part of the image */
 }
