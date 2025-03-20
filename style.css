@@ -44,6 +44,12 @@ h2 {
     margin-top: 100px;
 	/*padding-top: 100px;*/
 }
+.icon-image {
+    width: 50px;       /* Width of the icon */
+    height: 50px;      /* Height of the icon, set the same as width to create a square */
+    object-fit: cover; /* Ensures the image covers the full area without distorting */
+    object-position: center; /* Adjust this value to focus on a specific part of the image */
+}
 
 #aboutme {
 	/* background: #a8a890; */
